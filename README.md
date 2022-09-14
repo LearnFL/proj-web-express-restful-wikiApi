@@ -17,4 +17,4 @@ router.patch('/:articleName', patchSpecificArticle);<br/>
 router.delete('/:articleName', deleteArticle);<br/>
 
 #### Ideas
-One can use this for to make an interesting arduino project where data needs to be sent to a server, for example temperature data that could be plotted etc.
+One can use this to make an interesting arduino project where data needs to be sent to a server, for example temperature data that could be plotted etc.
