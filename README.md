@@ -6,6 +6,7 @@ Coded by [Dennis Rotnov](https://www.dennisrotnov.com).
 
 #### Process
 Built using NodeJS, ExpresJS, MongoDB, Mongoose. Implements Get, Post, Put, Patch, Delete. <br/>
+The app is structured according MVC. <br/>
 
 router.get('/', articles);<br/>
 router.post('/', postReqArticles);<br/>
