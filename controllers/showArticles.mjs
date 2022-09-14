@@ -24,7 +24,7 @@ export async function deleteAllArticles(req, res, next) {
 export async function specificArticle(req, res, next) {
   var article = await getSpecificArticle(_.capitalize(req.params.articleName));
   if (article) {
-    article = res.send(article);
+    res.send(article);
   } else {
     res.send({_id: 0, title: 'Article Not Found', content: "Please try another article."})
   }
